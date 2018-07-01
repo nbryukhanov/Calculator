@@ -6,7 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        System.out.println(calculator.add(1,2));
-        calculator.div(2222,231);
+        System.out.println(calculator.add(2, 2));
+        System.out.println(calculator.substract(1,2));
+        System.out.println(calculator.mult(1,2));
+        System.out.println(calculator.div(21,0));
     }
 }
